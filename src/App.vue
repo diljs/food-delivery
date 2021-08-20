@@ -1,14 +1,17 @@
 <template>
-  <h1>hello world</h1>
+  <Header />
 </template>
 
 <script>
-
+import Header from './components/Header';
 export default {
-  
+  components:  {
+   Header
+  }
 }
 </script>
 
-<style>
+<style lang="scss">
+
 
 </style>

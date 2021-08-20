@@ -1,0 +1,13 @@
+@import "./helpers/fonts";
+@import "./helpers/mixins";
+@import "./helpers/variables";
+@import "./helpers/functions";
+
+body {
+    margin: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+    background: $bg-gray;
+}
+a{
+    text-decoration: none;
+}
